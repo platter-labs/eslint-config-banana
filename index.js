@@ -38,6 +38,7 @@ module.exports = {
     eqeqeq: ['error', 'smart'],
     'getter-return': 'error',
     'import/first': 'error',
+    'import/namespace': 'off',
     'import/newline-after-import': 'error',
     'import/no-amd': 'error',
     'import/no-webpack-loader-syntax': 'error',
