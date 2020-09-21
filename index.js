@@ -27,10 +27,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { ignoreRestSiblings: true },
-    ],
+    '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/prefer-interface': 'off',
     'array-callback-return': 'error',
     'default-case': ['error', { commentPattern: '^no default$' }],
@@ -119,7 +116,7 @@ module.exports = {
     'no-template-curly-in-string': 'error',
     'no-this-before-super': 'error',
     'no-throw-literal': 'error',
-    'no-undef': 'error',
+    'no-undef': 'off',
     'no-unreachable': 'error',
     'no-unused-expressions': [
       'error',
