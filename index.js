@@ -127,14 +127,6 @@ module.exports = {
       },
     ],
     'no-unused-labels': 'error',
-    'no-use-before-define': [
-      'error',
-      {
-        classes: false,
-        functions: false,
-        variables: false,
-      },
-    ],
     'no-useless-computed-key': 'error',
     'no-useless-concat': 'error',
     'no-useless-constructor': 'error',
