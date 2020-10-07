@@ -50,6 +50,7 @@ module.exports = {
     'no-dupe-class-members': 'error',
     'no-dupe-keys': 'error',
     'no-duplicate-case': 'error',
+    'no-empty': 'off',
     'no-empty-character-class': 'error',
     'no-empty-pattern': 'error',
     'no-eval': 'error',
