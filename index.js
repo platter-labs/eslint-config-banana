@@ -13,7 +13,9 @@ module.exports = {
   },
   plugins: ['simple-import-sort', 'sort-keys-fix', 'unused-imports'],
   rules: {
+    '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
     'simple-import-sort/imports': 'error',
     'sort-keys-fix/sort-keys-fix': 'error',
     'unused-imports/no-unused-imports-ts': 'error',
