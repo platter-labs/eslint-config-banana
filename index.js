@@ -23,6 +23,5 @@ module.exports = {
     ],
     'simple-import-sort/imports': 'error',
     'sort-keys-fix/sort-keys-fix': 'error',
-    'unused-imports/no-unused-imports-ts': 'error',
   },
 };
