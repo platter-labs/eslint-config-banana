@@ -16,6 +16,11 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    'object-shorthand': 'error',
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', next: 'return', prev: '*' },
+    ],
     'simple-import-sort/imports': 'error',
     'sort-keys-fix/sort-keys-fix': 'error',
     'unused-imports/no-unused-imports-ts': 'error',
