@@ -15,7 +15,9 @@ module.exports = {
   rules: {
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
     'object-shorthand': 'error',
     'padding-line-between-statements': [
       'error',
@@ -23,5 +25,6 @@ module.exports = {
     ],
     'simple-import-sort/imports': 'error',
     'sort-keys-fix/sort-keys-fix': 'error',
+    'unused-imports/no-unused-imports-ts': 'error',
   },
 };
