@@ -53,7 +53,7 @@ module.exports = {
     curly: 'error',
     eqeqeq: 'error',
     'multiline-comment-style': ['error', 'separate-lines'],
-    'no-console': ['warn', { allow: ['error', 'info', 'warn'] }],
+    'no-console': ['warn', { allow: ['error', 'info', 'table', 'warn'] }],
     'no-duplicate-imports': 'off',
     'no-else-return': 'error',
     'no-extra-boolean-cast': 'error',
