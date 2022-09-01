@@ -1,16 +1,20 @@
 {
   "name": "eslint-config-banana",
-  "description": "🍌 Shared ESLint config for Node, React & React Native",
+  "description": "🍌 Shared ESLint config for Node, GraphQL, React & React Native",
   "version": "1.0.0-alpha.13",
   "main": "index.js",
   "author": "Glenn Reyes <glenn@glennreyes.com>",
   "license": "MIT",
   "files": [
     "index.js",
+    "graphql.js",
     "node.js",
-    "react.js"
+    "react.js",
+    "react-native.js"
   ],
   "dependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.10.7",
+    "@react-native-community/eslint-config": "^3.1.0",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint-config-prettier": "^8.5.0",
