@@ -16,6 +16,7 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
+    'react/self-closing-comp': 'error',
     // Using classnames order through official prettier plugin instead
     'tailwindcss/classnames-order': 'off',
     'tailwindcss/no-custom-classname': 'off',
