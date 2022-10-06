@@ -11,7 +11,6 @@ specifiers:
   eslint-plugin-react: ^7.30.1
   eslint-plugin-react-hooks: ^4.6.0
   eslint-plugin-security: ^1.5.0
-  eslint-plugin-simple-import-sort: ^7.0.0
   eslint-plugin-sort-keys-fix: ^1.1.2
   eslint-plugin-tailwindcss: ^3.6.1
   eslint-plugin-unused-imports: ^2.0.0
@@ -28,7 +27,6 @@ dependencies:
   eslint-plugin-react: 7.31.1_eslint@8.23.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
   eslint-plugin-security: 1.5.0
-  eslint-plugin-simple-import-sort: 7.0.0_eslint@8.23.0
   eslint-plugin-sort-keys-fix: 1.1.2
   eslint-plugin-tailwindcss: 3.6.1_ts-node@10.9.1
   eslint-plugin-unused-imports: 2.0.0_sbdp5iadjgs2w3ocjlgvxcf2qe
@@ -1459,14 +1457,6 @@ packages:
     resolution: {integrity: sha512-hAFVwLZ/UeXrlyVD2TDarv/x00CoFVpaY0IUZhKjPjiFxqkuQVixsK4f2rxngeQOqSxi6OUjzJM/jMwKEVjJ8g==}
     dependencies:
       safe-regex: 2.1.1
-    dev: false
-
-  /eslint-plugin-simple-import-sort/7.0.0_eslint@8.23.0:
-    resolution: {integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==}
-    peerDependencies:
-      eslint: '>=5.0.0'
-    dependencies:
-      eslint: 8.23.0
     dev: false
 
   /eslint-plugin-sort-keys-fix/1.1.2:
