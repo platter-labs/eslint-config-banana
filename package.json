@@ -6,14 +6,13 @@
   "author": "Glenn Reyes <glenn@glennreyes.com>",
   "license": "MIT",
   "files": [
-    "index.cjs",
-    "node.cjs",
-    "react.cjs",
-    "react-native.cjs"
+    "index.js",
+    "node.js",
+    "react.js",
+    "react-native.js"
   ],
-  "type": "module",
   "scripts": {
-    "lint": "eslint --fix *.cjs"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^3.10.7",
