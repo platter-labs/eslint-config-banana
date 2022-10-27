@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-curly-brace-presence': ['error', 'never'],
+    'react/jsx-sort-props': 'error',
     'react/jsx-uses-react': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
