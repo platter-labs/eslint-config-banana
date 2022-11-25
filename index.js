@@ -1,5 +1,13 @@
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended', 'prettier'],
+  overrides: [
+    {
+      files: ['**/*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
