@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', 'prettier'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:typescript-sort-keys/recommended',
+    'prettier',
+  ],
   overrides: [
     {
       files: ['**/*.js'],
