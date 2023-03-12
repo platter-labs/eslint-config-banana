@@ -11,6 +11,7 @@ module.exports = {
     './index',
   ],
   rules: {
+    'jsx-a11y/heading-has-content': 'off',
     'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-curly-brace-presence': ['error', 'never'],
     'react/jsx-sort-props': 'error',
