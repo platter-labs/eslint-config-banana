@@ -22,7 +22,6 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-tailwindcss": "^3.13.0",
@@ -31,6 +30,7 @@
   },
   "devDependencies": {
     "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "5.0.0-canary-fdb368d9e-20230725",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   }
