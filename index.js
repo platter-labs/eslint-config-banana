@@ -18,7 +18,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['sort-keys-fix', 'unused-imports'],
+  plugins: ['sort-keys-fix'],
   rules: {
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/await-thenable': 'error',
