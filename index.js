@@ -30,7 +30,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/no-confusing-non-null-assertion': 'error',
-    '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-meaningless-void-operator': 'error',
     '@typescript-eslint/no-non-null-assertion': 'off',
