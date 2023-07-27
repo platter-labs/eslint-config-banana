@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
+    'plugin:import/recommended',
     'plugin:typescript-sort-keys/recommended',
     'prettier',
   ],
@@ -68,7 +69,7 @@ module.exports = {
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/return-await': 'error',
-    '@typescript-eslint/sort-type-union-intersection-members': 'error',
+    '@typescript-eslint/sort-type-constituents': 'error',
     '@typescript-eslint/strict-boolean-expressions': [
       'error',
       {
@@ -80,9 +81,10 @@ module.exports = {
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     curly: 'error',
     eqeqeq: 'error',
+    'import/first': 'error',
+    'import/order': 'error',
     'multiline-comment-style': ['error', 'separate-lines'],
     'no-console': ['warn', { allow: ['error', 'info', 'table', 'warn'] }],
-    'no-duplicate-imports': 'off',
     'no-else-return': 'error',
     'no-extra-boolean-cast': 'error',
     'no-floating-decimal': 'error',
@@ -92,7 +94,6 @@ module.exports = {
     'prefer-template': 'error',
     'sort-keys-fix/sort-keys-fix': 'error',
     'spaced-comment': 'error',
-    'unused-imports/no-unused-imports-ts': 'error',
     yoda: 'error',
   },
 };
