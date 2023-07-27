@@ -10,7 +10,7 @@ dependencies:
     version: 3.20.1(@babel/core@7.22.9)(graphql@16.7.1)
   '@react-native-community/eslint-config':
     specifier: ^3.2.0
-    version: 3.2.0(eslint@8.45.0)(prettier@2.8.6)(typescript@5.1.6)
+    version: 3.2.0(eslint@8.45.0)(prettier@3.0.0)(typescript@5.1.6)
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.2.0
     version: 6.2.0(@typescript-eslint/parser@6.2.0)(eslint@8.45.0)(typescript@5.1.6)
@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^8.45.0
     version: 8.45.0
   prettier:
-    specifier: ^2.8.6
-    version: 2.8.6
+    specifier: ^3.0.0
+    version: 3.0.0
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -962,7 +962,7 @@ packages:
       webcrypto-core: 1.7.7
     dev: false
 
-  /@react-native-community/eslint-config@3.2.0(eslint@8.45.0)(prettier@2.8.6)(typescript@5.1.6):
+  /@react-native-community/eslint-config@3.2.0(eslint@8.45.0)(prettier@3.0.0)(typescript@5.1.6):
     resolution: {integrity: sha512-ZjGvoeiBtCbd506hQqwjKmkWPgynGUoJspG8/MuV/EfKnkjCtBmeJvq2n+sWbWEvL9LWXDp2GJmPzmvU5RSvKQ==}
     peerDependencies:
       eslint: '>=8'
@@ -978,11 +978,11 @@ packages:
       eslint-plugin-eslint-comments: 3.2.0(eslint@8.45.0)
       eslint-plugin-ft-flow: 2.0.3(@babel/eslint-parser@7.19.1)(eslint@8.45.0)
       eslint-plugin-jest: 26.9.0(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.45.0)(typescript@5.1.6)
-      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.45.0)(prettier@2.8.6)
+      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.45.0)(prettier@3.0.0)
       eslint-plugin-react: 7.33.0(eslint@8.45.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.45.0)
       eslint-plugin-react-native: 4.0.0(eslint@8.45.0)
-      prettier: 2.8.6
+      prettier: 3.0.0
     transitivePeerDependencies:
       - jest
       - supports-color
@@ -2099,7 +2099,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.8.0)(eslint@8.45.0)(prettier@2.8.6):
+  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.8.0)(eslint@8.45.0)(prettier@3.0.0):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2112,7 +2112,7 @@ packages:
     dependencies:
       eslint: 8.45.0
       eslint-config-prettier: 8.8.0(eslint@8.45.0)
-      prettier: 2.8.6
+      prettier: 3.0.0
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -3368,9 +3368,9 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier@2.8.6:
-    resolution: {integrity: sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
 
   /prop-types@15.8.1:
