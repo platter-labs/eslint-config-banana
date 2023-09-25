@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'plugin:import/recommended',
     'plugin:typescript-sort-keys/recommended',
     'prettier',
   ],
@@ -80,8 +79,6 @@ module.exports = {
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     curly: 'error',
     eqeqeq: 'error',
-    'import/first': 'error',
-    'import/order': 'error',
     'multiline-comment-style': ['error', 'separate-lines'],
     'no-console': ['warn', { allow: ['error', 'info', 'table', 'warn'] }],
     'no-else-return': 'error',
