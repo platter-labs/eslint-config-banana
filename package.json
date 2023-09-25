@@ -14,6 +14,9 @@
   "scripts": {
     "lint": "eslint ."
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^3.20.1",
     "@react-native-community/eslint-config": "^3.2.0",
