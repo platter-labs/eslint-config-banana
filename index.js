@@ -17,7 +17,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['sort-keys-fix'],
+  plugins: ['sort-keys-fix', 'unused-imports'],
   rules: {
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/await-thenable': 'error',
@@ -37,14 +37,7 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        args: 'after-used',
-        ignoreRestSiblings: true,
-        vars: 'all',
-      },
-    ],
+    '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/padding-line-between-statements': [
       'error',
       {
@@ -85,11 +78,23 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
     'no-floating-decimal': 'error',
     'no-unneeded-ternary': 'error',
+    'no-unused-vars': 'off',
     'no-useless-rename': 'error',
     'object-shorthand': 'error',
     'prefer-template': 'error',
     'sort-keys-fix/sort-keys-fix': 'error',
     'spaced-comment': 'error',
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'error',
+      {
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+        ignoreRestSiblings: true,
+        vars: 'all',
+        varsIgnorePattern: '^_',
+      },
+    ],
     yoda: 'error',
   },
 };
