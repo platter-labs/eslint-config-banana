@@ -37,6 +37,7 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
+    '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/padding-line-between-statements': [
       'error',
       {
